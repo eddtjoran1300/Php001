@@ -1,0 +1,82 @@
+PHP Calculator 
+
+Overview
+
+The PHP Calculator is a web-based tool that performs various mathematical operations, including addition, subtraction, multiplication, division, exponentiation, percentage calculations, square roots, and logarithms.
+
+Features
+
+Simple user-friendly interface
+
+Supports multiple mathematical operations
+
+Error handling for invalid inputs (e.g., division by zero, logarithm of non-positive numbers)
+
+Real-time PHP processing without requiring page reload
+
+Requirements
+
+A modern web browser
+
+Installation & Usage
+
+Save the PHP script as calculator.php.
+
+Upload the file to a PHP-supported web server.
+
+Open the file in a web browser to access the calculator.
+
+Enter two numbers, choose an operation, and click 'Calculate'.
+
+Code Structure
+
+HTML Form
+
+Accepts two numeric inputs (num1 and num2).
+
+Provides a dropdown menu to select an operation.
+
+A submit button sends the data to the PHP script.
+
+PHP Script
+
+Receives user input via the POST method.
+
+Uses a switch-case to determine the operation.
+
+Performs the selected mathematical operation.
+
+Displays the calculated result on the page.
+
+Includes error handling for division by zero and logarithm of non-positive numbers.
+
+Example Usage
+
+Input:
+
+Number 1: 10
+Number 2: 5
+Operation: Multiplication (*)
+
+Output:
+
+Result: 50
+
+Error Handling
+
+Division by zero: Displays an error message instead of processing.
+
+Logarithm of zero or negative numbers: Displays a warning message.
+
+Ensures that only valid numerical inputs are accepted.
+
+Future Enhancements
+
+Add additional mathematical functions 
+
+Include a history log to track previous calculations.
+
+Conclusion
+
+This calculator serves as a simple yet powerful tool for performing multiple mathematical operations in PHP. It can be further expanded with additional features for enhanced functionality.
+
